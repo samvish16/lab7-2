@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Web App</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to My Web App</h2>
+      <p>This is the home page content.</p>
+    </section>
+
+    <section id="about" style="display: none;">
+      <h2>About Us</h2>
+      <p>This is the about page content.</p>
+    </section>
+
+    <section id="contact" style="display: none;">
+      <h2>Contact Us</h2>
+      <p>This is the contact page content.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
